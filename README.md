@@ -1,4 +1,4 @@
-# ai_governance_professional_iapp
+# Artificial Intelligence Governance Professional
 Repository of my learning material for the AI Governance Professional certification offered by IAPP, this will include my study notes I capture as I read through the prep book by **Joanna M. Valencia**: https://www.amazon.co.uk/Artificial-Intelligence-Governance-ProfessionalTM-Comprehensive-ebook/dp/B0FV2WFYTV
 
 # Domain 1: Understanding the Foundations of AI Governance
@@ -11,8 +11,13 @@ Repository of my learning material for the AI Governance Professional certificat
   - [x] D. Principles of Responsible AI
 
 - [ ] II. Establish and Communicate Organisational Expectations for AI Governance (AIGP BoK Section I.B) <br>
-**Status**: Not Started <br>
-**Target**: 28-Jan-2026
+  **Status**: `In Progress` <br>
+  **Target**: `28-Jan-2026`
+  - [ ] A. Defining Roles and Responsibilities for AI Governance Stakeholders
+  - [ ] B. Cross-Functional Collaboration
+  - [ ] C. Training and Awareness for Stakeholders on AI Terminology, Strategy, and Governance
+  - [ ] D. Tailoring Governance by Organizational Context
+  - [ ] E. Differentiating Stakeholders in AI Governance: Developers, Deployers, and Users
 - [ ] III. Establish Policies and Procedures Across the AI Lifecycle (AIGP BoK Section I.C) <br>
-**Status**: Not Started <br>
-**Target**: 29-Jan-2026
+  **Status**: Not Started <br>
+  **Target**: 29-Jan-2026
