@@ -1,8 +1,8 @@
 # Domain 1: Understanding the Foundations of AI Governance
 
-## III. ESTABLISH POLICIES AND PROCEDURES ACROSS THE AI LIFECYCLE (AIGB BOK Section I.C)
+## II. ESTABLISH AND COMMUNICATE ORGANIZATIONAL EXPECTATIONS FOR AI GOVERNANCE (AIGB BOK Section I.B)III. ESTABLISH POLICIES AND PROCEDURES ACROSS THE AI LIFECYCLE (AIGB BOK Section I.C)
 
-**Status**: `In Progress`  <br>
+**Status**: `Completed`  <br>
 **Target**: `28-Jan-2026`
 
 ### A. Defining Roles and Responsibilities for AI Governance Stakeholders
