@@ -29,16 +29,20 @@ Repository of my learning material for the AI Governance Professional certificat
 
 ## Domain 2: Understanding How Laws, Standards, and Frameworks Apply to AI
 
-- [ ] **I. HOW EXISTING DATA PRIVACY LAWS APPLY TO AI (AIGB BOK Section II.A)**<br>**Status**: `Completed` <br>
+- [x] **I. HOW EXISTING DATA PRIVACY LAWS APPLY TO AI (AIGB BOK Section II.A)**<br>**Status**: `Completed` <br>
   **Target**: `30-Jan-2026`
 
-  - [ ] A. Notice, Choice/Consent, and Purpose Limitation in AI Contexts
-  - [ ] B. Data Minimization and Privacy by Design for AI
-  - [ ] C. Controller Obligations in AI Contexts
-  - [ ] D. Special / Sensitive Data Requirements
+  - [x] A. Notice, Choice/Consent, and Purpose Limitation in AI Contexts
+  - [x] B. Data Minimization and Privacy by Design for AI
+  - [x] C. Controller Obligations in AI Contexts
+  - [x] D. Special / Sensitive Data Requirements
 
-- [ ] **II. HOW OTHER EXISTING LAWS APPLY TO AI (AIGP BOK Section II.B)**<br>**Status**: `Not Started` <br>
+- [ ] **II. HOW OTHER EXISTING LAWS APPLY TO AI (AIGP BOK Section II.B)**<br>**Status**: `In Progress` <br>
   **Target**: `xx-xxx-2026`
+  - [ ] A. Intellectual Property (IP) and AI
+  - [ ] B. Non-Discrimination and AI
+  - [ ] C. Consumer Protection and AI
+  - [ ] D. Product Liability and AI
 
 - [ ] **III. MAIN ELEMENTS OF THE EU AI ACT (AIGP BOK Section II.C)**<br>**Status**: `Not Started` <br>
   **Target**: `xx-xxx-2026`
