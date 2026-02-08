@@ -2,8 +2,8 @@
 
 ## I. HOW EXISTING DATA PRIVACY LAWS APPLY TO AI (AIGB BOK Section II.A)
 
-**Status**: `In Progress`  <br>
-**Target**: `1-Feb-2026`
+**Status**: `Completed`  <br>
+**Target**: `30-Jna-2026`
 
 AI governance cannot exist in a vacuum. It must operate within the legal, regulatory, and standards-based environments that shape how AI is designed, deployed, and managed. Tools such as the **OECD AI Principles, the NIST AI Risk Management Framework, and ISO/IEC standards** provide guidance in how AI should be treated for legal and ethical compliance. 
 

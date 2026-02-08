@@ -29,20 +29,35 @@ Repository of my learning material for the AI Governance Professional certificat
 
 ## Domain 2: Understanding How Laws, Standards, and Frameworks Apply to AI
 
-- [ ] **I. HOW EXISTING DATA PRIVACY LAWS APPLY TO AI (AIGB BOK Section II.A)**<br>**Status**: `Completed` <br>
-  **Target**: `30-Jan-2026`
+- [x] **I. HOW EXISTING DATA PRIVACY LAWS APPLY TO AI (AIGB BOK Section II.A)**<br>**Status**: `Completed` <br>
+  **Target**: `01-Feb-2026`
 
-  - [ ] A. Notice, Choice/Consent, and Purpose Limitation in AI Contexts
-  - [ ] B. Data Minimization and Privacy by Design for AI
-  - [ ] C. Controller Obligations in AI Contexts
-  - [ ] D. Special / Sensitive Data Requirements
+  - [x] A. Notice, Choice/Consent, and Purpose Limitation in AI Contexts
+  - [x] B. Data Minimization and Privacy by Design for AI
+  - [x] C. Controller Obligations in AI Contexts
+  - [x] D. Special / Sensitive Data Requirements
 
-- [ ] **II. HOW OTHER EXISTING LAWS APPLY TO AI (AIGP BOK Section II.B)**<br>**Status**: `Not Started` <br>
-  **Target**: `xx-xxx-2026`
+- [x] **II. HOW OTHER EXISTING LAWS APPLY TO AI (AIGP BOK Section II.B)**<br>**Status**: `Completed` <br>
+  **Target**: `08-Feb-2026`
 
-- [ ] **III. MAIN ELEMENTS OF THE EU AI ACT (AIGP BOK Section II.C)**<br>**Status**: `Not Started` <br>
-  **Target**: `xx-xxx-2026`
+  - [x] A. Intellectual Property (IP) and AI
+  - [x] B. Non-Discrimination and AI
+  - [x] C. Consumer Protection and AI
+  - [x] D. Product Liability and AI
 
+- [ ] **III. MAIN ELEMENTS OF THE EU AI ACT (AIGP BOK Section II.C)**<br>**Status**: `In Progress` <br>
+  **Target**: `xx-Feb-2026`
+
+  - [ ] A. Risk classification
+  
+  - [ ] B. Key requirements for high-risk AI systems
+  
+  - [ ] C. Distinct requirements for general-purpose AI models
+  
+  - [ ] D. Enforcement framework and penalties
+  
+  - [ ] E. Role-based differences
+  
 - [ ] **IV. MAIN INDUSTRY STANDARDS AND TOOLS. (AIGP BOK Section II.D)**<br>
 
   **Status**: `Not Started` <br>
