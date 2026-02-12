@@ -48,20 +48,26 @@ Repository of my learning material for the AI Governance Professional certificat
 - [ ] **III. MAIN ELEMENTS OF THE EU AI ACT (AIGP BOK Section II.C)**<br>**Status**: `In Progress` <br>
   **Target**: `xx-Feb-2026`
 
-  - [ ] A. Risk classification
+  - [x] A. Risk classification
   
-  - [ ] B. Key requirements for high-risk AI systems
+  - [x] B. Key requirements for high-risk AI systems
   
-  - [ ] C. Distinct requirements for general-purpose AI models
+  - [x] C. Distinct requirements for general-purpose AI models
   
-  - [ ] D. Enforcement framework and penalties
+  - [x] D. Enforcement framework and penalties
   
-  - [ ] E. Role-based differences
+  - [x] E. Role-based differences
   
-- [ ] **IV. MAIN INDUSTRY STANDARDS AND TOOLS. (AIGP BOK Section II.D)**<br>
-
-  **Status**: `Not Started` <br>
-  **Target**: `xx-xxx-2026`
+- [ ] **IV. MAIN INDUSTRY STANDARDS AND TOOLS. (AIGP BOK Section II.D)**<br>**Status**: `In Progress` <br>
+  **Target**: `xx-Feb-2026`
+  - [ ] A. OECD Principles, Framework, Policies, and Recommended Practices for Trustworthy AI
+  
+  - [ ] B. NIST AI Risk Management Framework & Playbook
+  
+  - [ ] C. NIST ARIA Program
+  
+  - [ ] D. ISO Core AI Standards
+  
 
 
 
