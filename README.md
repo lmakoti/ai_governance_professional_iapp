@@ -45,9 +45,8 @@ Repository of my learning material for the AI Governance Professional certificat
   - [x] C. Consumer Protection and AI
   - [x] D. Product Liability and AI
 
-- [ ] **III. MAIN ELEMENTS OF THE EU AI ACT (AIGP BOK Section II.C)**<br>**Status**: `In Progress` <br>
-  **Target**: `xx-Feb-2026`
-
+- [x] **III. MAIN ELEMENTS OF THE EU AI ACT (AIGP BOK Section II.C)**<br>**Status**: `In Progress` <br>
+  **Target**: `10-Feb-2026`
   - [x] A. Risk classification
   
   - [x] B. Key requirements for high-risk AI systems
@@ -59,8 +58,8 @@ Repository of my learning material for the AI Governance Professional certificat
   - [x] E. Role-based differences
   
 - [ ] **IV. MAIN INDUSTRY STANDARDS AND TOOLS. (AIGP BOK Section II.D)**<br>**Status**: `In Progress` <br>
-  **Target**: `xx-Feb-2026`
-  - [ ] A. OECD Principles, Framework, Policies, and Recommended Practices for Trustworthy AI
+  **Target**: `14-Feb-2026`
+  - [x] A. OECD Principles, Framework, Policies, and Recommended Practices for Trustworthy AI
   
   - [ ] B. NIST AI Risk Management Framework & Playbook
   
