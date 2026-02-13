@@ -57,15 +57,15 @@ Repository of my learning material for the AI Governance Professional certificat
   
   - [x] E. Role-based differences
   
-- [ ] **IV. MAIN INDUSTRY STANDARDS AND TOOLS. (AIGP BOK Section II.D)**<br>**Status**: `In Progress` <br>
-  **Target**: `14-Feb-2026`
+- [ ] **IV. MAIN INDUSTRY STANDARDS AND TOOLS. (AIGP BOK Section II.D)**<br>**Status**: `Completed` <br>
+  **Target**: `12-Feb-2026`
   - [x] A. OECD Principles, Framework, Policies, and Recommended Practices for Trustworthy AI
   
-  - [ ] B. NIST AI Risk Management Framework & Playbook
+  - [x] B. NIST AI Risk Management Framework & Playbook
   
-  - [ ] C. NIST ARIA Program
+  - [x] C. NIST ARIA Program
   
-  - [ ] D. ISO Core AI Standards
+  - [x] D. ISO Core AI Standards
   
 
 
