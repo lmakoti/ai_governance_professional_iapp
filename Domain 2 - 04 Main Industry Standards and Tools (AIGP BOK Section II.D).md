@@ -2,8 +2,8 @@
 
 ## IV. MAIN INDUSTRY STANDARDS AND TOOLS. (AIGP BOK Section II.D)
 
-**Status:**: Complete<br>
-**Target:** `12-Feb-2026
+**Status:** `Complete`<br>
+**Target:** `12-Feb-2026`
 
 
 

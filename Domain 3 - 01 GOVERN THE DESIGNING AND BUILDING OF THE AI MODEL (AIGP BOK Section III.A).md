@@ -1,99 +1,220 @@
-# Domain 2: Understanding How Laws, Standards, and Frameworks Apply to AI
+# Domain 3: Governing AI Development
 
-## IV. MAIN INDUSTRY STANDARDS AND TOOLS. (AIGP BOK Section II.D)
+## I. Govern The Designing and Building of the AI Model (AIGP BOK Section III.A)
 
-**Status:**: Complete<br>
-**Target:** `12-Feb-2026
+**Status:** `In Progress`<br>
+**Target:** `XX-Feb-2026`
 
+The design and build phase of AI is where governance has its deepest influence. Decisions made here on data selection, model architecture, training methods, and risk controls shape the system’s future reliability, fairness, and compliance. **If governance is weak at this stage, flaws can become hardwired into the model and amplified at scale once deployed.**
 
+### A. Define the business context and use case
 
-### A. OECD Principles, Framework, Policies, and Recommended Practices for Trustworthy AI
+Before any technical work begins, governance requires teams to pause and establish a shared understanding of why the AI system is being built and what it is meant to achieve. This alignment anchors every downstream design decision in a framework of legitimacy, accountability, and compliance.
 
-#### 1. Core OECD AI Principles
+By clarifying the business context at the outset, governance prevents “AI for AI’s sake” and embeds accountability into the foundation of the system.
 
-- Inclusive Growth, Sustainable Development, and Well-Being:
-- Human-Centered Values and Fairness
-- Transparency and Explainability
-- Robustness, Security, and Safety
-- Accountability
+### B. Perform / Review Impact Assessment
 
-#### 2. Framework and Policies for Implementation
+A robust impact assessment doesn’t just catalog risks, it forces an organization to confront the why, how, and who of an AI system. These elements serve as the backbone of a structured, defensible review, ensuring that risks are anticipated, documented, and addressed before deployment.
 
-- National AI Strategies
-- Research and Collaboration
-- Workforce Development
-- Public Trust and Engagement
-- Data and Infrastructure Access
+**Exam Tip:** Impact assessments aren’t just compliance checkboxes, they are strategic safeguards that build trust, enable confident innovation, and prevent costly financial and reputational failures. 
 
-**Exam Tip**: If a scenario describes national AI strategies, workforce training, or international cooperation, this is commonly treated on the exam as part of the OECD’s implementation framework. Answers in these situations often emphasize its five pillars: strategies, research, workforce, trust, and infrastructure.
+**Exam Scenario:** A case may describe adding new sensitive data or features to a system without updating the impact assessment. The right choice is to refresh the DPIA/AIA so risks are documented, safeguards are applied, and compliance is maintained.
 
-- Ethical Review Boards for AI Projects
-- Impact assessments
-- Documentation tools
-- Transparency reporting
-- Auditability and redress mechanisms
+#### Types of Impact Assessments
 
-**Exam Tips for OECD Principles:** 
+- **Algorithmic Impact Assessment (AIA):** An AIA is a broader review that goes beyond privacy to examine fairness, bias, transparency, and human rights impacts of an AI system.
+- **Data Protection Impact Assessment (DPIA)**: A DPIA is mandated under the **GDPR** (Articles 35–36) whenever the processing of personal data is “likely to result in a high risk to the rights and freedoms of natural persons.”
+- **EU AI Act Impact Assessment:** Under the **EU AI Act**, high-risk AI systems, such as those used in critical infrastructure, healthcare, education, or law enforcement, are subject to mandatory conformity assessments.
+- **Sector-Specific Assessments:** 
 
-- OECD = first global AI principles (2019), endorsed by G20. 
-- Core 5 principles = IHTRA → Inclusive, Human-centered, Transparency, Robustness, Accountability. 
-- Scope: OECD principles are high-level and non-binding, but they strongly influence national AI strategies and frameworks (e.g., EU AI Act, U.S. National AI Initiative). 
+### C. Identify Applicable Laws
 
+#### 1. Privacy and Data Protection Laws
 
+- **Consent and Lawful Basis**: Repurposing customer data collected for billing or support into training material for predictive analytics may violate these rules unless consent is renewed or another lawful ground is documented.
+- **Data Minimization and Purpose Limitation:** collect only what is necessary, and use it only for clearly defined purposes.
+- **Sensitive and Special Category Data** 
+- **Cross-Border Data Transfers**
+- **Data Subject Rights:** Some frameworks also grant the right to opt out of automated decision-making. This means AI systems must be designed to accommodate deletion requests, generate explanations for outcomes, and support contestability.
+- **Sector-Specific Considerations (HIPAA)**
 
-### B. NIST AI Risk Management Framework & Playbook
+#### 2. Anti-Discrimination and Employment Laws
 
-The **National Institute of Standards and Technology (NIST)** released the AI Risk Management Framework (AI RMF) in 2023 as a voluntary but widely adopted guide for managing AI risks. Much like the NIST Cybersecurity Framework, it has become a global reference point, offering both principles and practical tools. The framework is organized into four core functions: **Govern, Map, Measure, and Manage**, each with categories and subcategories that operationalize responsible AI. These are further supported by the NIST AI RMF Playbook, which provides detailed practices, examples, and implementation guidance.
+AI systems that touch employment, credit, or other opportunity-related decisions fall directly under anti-discrimination and equal opportunity laws. These laws are designed to ensure fairness in access to ***jobs, promotions, housing, and financial services***, and they apply equally when decisions are made or assisted by algorithms.
 
-<img src="https://go.forrester.com/wp-content/uploads/2023/02/2CD1E730-D45F-4C17-8CB1-B862FCC7523B_1_201_a.jpeg" style="zoom:50%;" />
+Anti-discrimination and employment laws make clear that AI cannot be treated as a neutral “black box”; organizations must proactively demonstrate that their systems are fair, lawful, and equitable by embedding these safeguards from the outset.
 
-- **Govern:** This core function establishes the foundation of an effective AI risk management program. It is about creating the culture, structures, and accountability mechanisms that make responsible AI possible.
-- **Map:** This core function focuses on situational awareness. Before risks can be managed, the organization must understand the system’s intended purpose, functions, and boundaries. That means defining assumptions and limitations at the outset and documenting them for clarity.
-- **Measure:** This core function ensures that AI systems are evaluated against clear criteria and that those evaluations are continuous. Metrics and indicators establish benchmarks for reliability, robustness, fairness, transparency, and security; for example, monitoring bias metrics over time to detect drift.
-- **Manage:** This core function is where insights from governance, mapping, and measurement translate into sustained action. Risk prioritization ensures that issues are ranked by severity and likelihood, maintained in a risk register that informs decisions. Mitigation planning assigns concrete steps to reduce risk and names accountable owners.
+#### 3. Consumer Protection Laws
 
-Alongside the framework itself, NIST provides a companion resource known as the **NIST AI RMF** Playbook. This practical guide is designed to help organizations move from theory to application by offering concrete examples of how to implement each subcategory in the framework.
+Consumer protection laws are built to shield individuals from being misled, manipulated, or harmed by unfair business practices, and those same principles apply to AI-driven products and services.
 
-The NIST AI RMF is especially important for AIGP exam preparation because it reflects how the U.S. approaches AI governance and risk management. Unlike purely technical standards, the RMF takes a socio-technical perspective, recognizing that AI risks are not just about system accuracy or robustness, but also about fairness, explainability, accountability, and broader societal impacts.
+Consumer protection laws also address the way systems are presented to users. **Dark patterns** (interfaces intentionally designed to manipulate behavior) are under increasing regulatory scrutiny. In the AI context, this might include chatbots that conceal the fact they are automated, or recommendation systems that nudge consumers toward higher-priced options without disclosure.
 
+Consumer-protection laws treat AI as a market-facing product: overpromising, obscuring limits, or using manipulative interfaces can trigger enforcement, lawsuits, and reputational damage, so governance ensures AI is presented honestly, transparently, and fairly.
 
+#### 4. Product Liability and Safety Laws
 
-### C. NIST ARIA Program - REVIEW
+Product liability and safety laws rest on a simple principle: companies are responsible for making sure their products are safe and reliable before they ever reach consumers. With AI, that responsibility takes on heightened urgency, particularly where system failures can trigger serious consequences such as physical injury, financial loss, or other significant harms.
 
-The **NIST Assessing Risks and Impacts of AI (ARIA)** Program is designed to complement the AI Risk Management Framework (AI RMF) by moving from principles to practice. While the AI RMF outlines what organizations should govern, **ARIA addresses how to measure those obligations in a concrete, scientific way.** - https://ai-challenges.nist.gov/aria
-
-By grounding governance in measurement science, ARIA strengthens the broader regulatory and policy landscape. Its role is to ensure that AI accountability is not just aspirational but evidence-based, enabling governments and organizations to rely on verifiable standards in procurement, oversight, and international coordination.
-
-**Exam Tips for NIST ARIA:** 
-
-- ARIA = technical measurements for AI safety, robustness, fairness, and explainability. 
-
-- Think of it as RMF’s companion: RMF = governance framework; ARIA = testing + metrics. 
-- Exam trigger: If question = “which NIST program develops metrics and methodologies for AI trustworthiness?” → answer = ARIA.
+Governance must ensure that safety requirements are woven into every stage of the AI lifecycle, including system design, model training, validation, deployment, and ongoing monitoring.
 
 
 
-### D. ISO Core AI Standards
+#### 7. Governance Role in Identifying Applicable Laws
 
-#### 1. ISO/IEC 22989 — AI Concepts and Terminology
+- **Mapping Jurisdictions**: Governance begins by mapping the geographic scope of the AI system: where it is developed, where it will be deployed, and where its outputs may affect individuals.
+- **Identifying Overlapping Laws**: AI systems rarely fall under a single framework. Overlaps are common, such as a system that must comply with both GDPR (data protection) and the EU AI Act (high-risk AI governance).
+- **Incorporating Compliance into Design**: Regulatory requirements cannot be bolted on after development. Governance ensures that compliance is translated into design specifications, technical controls, and documentation practices from the outset.
+- **Engaging Legal, Compliance, and Risk Functions Early**: Finally, governance mandates cross-functional collaboration. Legal teams interpret the rules, compliance teams operationalize them, risk managers assess trade-offs, and engineers implement technical controls.
 
-ISO/IEC 22989 establishes the common vocabulary and conceptual framework for artificial intelligence. Its primary purpose is to make sure that when governments, industries, and regulators talk about AI, they are speaking the same language.
+**Exam Tip**: Legal mapping during development prevents downstream compliance crises. Embedding regulatory requirements early ensures systems are lawful, defensible, and market-ready. 
 
-Governance Implication: Shared terminology is not just academic, it has real-world impact. Clear definitions ensure consistency in contracts, compliance reviews, and regulatory enforcement, especially in cross-border contexts where multiple legal systems must align.
+**Exam Scenario**: The question might show a company reusing customer data for training without checking whether consent covers the new use. The correct response is to recognize the legal gap, map applicable laws, and ensure compliance before reuse.
 
-#### 2. ISO/IEC 42001 — AI Management System Standard (AIMS)
 
-ISO/IEC 42001, published in 2023, is the world’s first certifiable AI management system standard. Much like ISO/IEC 27001 sets the benchmark for information security management, 42001 provides a structured way for organizations to build, implement, and demonstrate responsible AI governance.
 
-This standard is expected to serve as a benchmark for compliance under the EU AI Act and other emerging regulatory regimes, making it one of the most influential AI governance tools globally.
+### D. Apply Policies, Best Practices, and Ethics in Design/Build
 
-**Exam Tip**: If a question asks why 22989 and 42001 are “core” ISO standards, remember the pairing: 22989 = language, 42001 = framework. Together they deliver both clarity and accountability. 
 
-- Exam Tips for ISO Core AI Standards: 22989 = Terminology. 42001 = Certifiable AI governance (AIMS). 
 
-- If exam asks “which ISO AI standard is certifiable?” → answer = 42001. 
-- Mnemonic: “T & C” = Terminology (22989) + Certification (42001). 
-- Scenario flag: If a question references audits or certification of AI governance, the right answer is ISO/IEC 42001.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
