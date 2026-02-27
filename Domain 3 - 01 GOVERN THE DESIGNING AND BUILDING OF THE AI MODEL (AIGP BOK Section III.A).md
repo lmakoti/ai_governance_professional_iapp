@@ -76,11 +76,79 @@ Governance must ensure that safety requirements are woven into every stage of th
 
 ### D. Apply Policies, Best Practices, and Ethics in Design/Build
 
+Applying policies, best practices, and ethical considerations ensures AI systems are purposeful, fair, explainable, and accountable from the start.
+
+#### 1. Purpose Definition
+
+The purpose must be stated in precise, plain language that captures what the system is designed to do. This documentation anchors design and deployment decisions and becomes part of the compliance record.
+
+AI systems frequently evolve beyond their original scope, often without the governance needed to ensure new uses are lawful or ethical.
+
+The purpose must be connected to organizational strategy and compliance duties.
+
+#### 2. Requirements Gathering
+
+A well-governed requirements phase prevents misalignment, reduces costly redesigns, and embeds accountability from the outset.
+
+AI systems must be designed to satisfy a spectrum of requirements, not just technical specifications. This means gathering input from engineering teams, compliance officers, legal advisors, ethicists, and business leaders.
+
+For AI, governance expands the scope to include non-functional requirements: fairness, explainability, privacy, security, and robustness. These qualities determine whether the system will be trusted, lawful, and resilient under scrutiny.
+
+Requirements gathering must also account for the perspectives of those who will use, regulate, or be affected by the AI system. This includes employees, customers, auditors, and regulators.
+
+#### 3. Architecture / Model Selection
+
+The choice of architecture and model type is not only a technical decision, it is a governance decision. The architecture determines how the AI system will function, how transparent it will be to stakeholders, and how defensible it will be to regulators.
+
+Different contexts demand different levels of interpretability and complexity. In high-stakes environments such as healthcare diagnostics or credit decisions, governance may favor interpretable models (e.g., decision trees or logistic regression) over complex black-box systems like deep neural networks, **even if the latter offer marginally higher accuracy.**
+
+Pure accuracy is rarely the sole objective in AI governance. Models must also be explainable to regulators and users, robust to adversarial manipulation, and resilient across diverse data inputs.
+
+AI models are resource-intensive, and large-scale training can generate significant environmental and financial costs. Governance increasingly requires considering the sustainability of model choices, balancing performance gains against compute demands and environmental factors.
+
+#### 4. Human Oversight
+
+The level of human oversight required for an AI system should always align with the risk it poses, and governance plays a central role in defining and enforcing that oversight.
+
+In a **Human-in-the-Loop (HITL)** model, a person must review and approve each AI-generated decision before it is finalized. This is common in high-stakes contexts, such as a doctor verifying an AI-assisted medical diagnosis. A **Human-on-the-Loop (HOTL)** approach shifts the role toward *active monitoring* rather than pre-approval. Here, humans continuously observe system outputs and retain the ability to intervene if the system begins to drift or malfunction; for instance, fraud analysts monitoring suspicious transaction alerts in real time. Finally, a **Human-in-Command (HIC)** model ensures that ultimate authority rests with people, even if the AI operates with significant autonomy. This gives designated individuals the power to override or shut down the system altogether if harmful outcomes arise, such as safety officers halting autonomous vehicle operations during an unexpected anomaly.
+
+Oversight is only effective if clear escalation procedures exist. When an AI tool produces questionable outputs, employees must know exactly how to report issues and who is responsible for reviewing them.
+
+#### 5. Data Analysis
+
+Governance ensures datasets are accurate, complete, and representative of the populations or conditions the system will encounter.
+
+Bias may enter through sampling errors, historical inequities, or inappropriate proxies (e.g., using postal codes as stand-ins for socioeconomic status).
+
+Transparency demands that organizations track where data came from, how it was processed, and how it was transformed before training. This “data lineage” allows auditors, regulators, and internal reviewers to understand how outcomes are shaped.
+
+#### 6. Metric and Threshold Evaluation
+
+Governance requires that evaluation goes beyond raw accuracy. Metrics such as precision (avoiding false positives), recall (avoiding false negatives), fairness (ensuring equitable outcomes across groups), and robustness (resilience against adversarial or unexpected inputs) must all be considered.
+
+<img src="https://www.researchgate.net/profile/Angela-Martin-6/publication/358029719/figure/fig2/AS:1115056309846018@1642861549455/Evaluation-metrics-accuracy-precision-recall-F-score-and-Intersection-over-Union.png" style="zoom:50%;" />
 
 
 
+Thresholds translate abstract metrics into operational standards. These thresholds determine the acceptable trade-offs between performance and risk.
+
+#### 8. Operational Controls
+
+Policies and principles only become meaningful when they are enforced through practical controls. Operational controls translate governance goals into daily practices that guide how systems are built, modified, and reviewed.
+
+Responsible AI governance begins at the earliest stages of development, requiring both technical and procedural safeguards to ensure systems are built with accountability in mind.
+
+For operational controls to have real value, they must be consistent and verifiable. Governance ensures that controls are applied systematically across projects, not at the discretion of individual teams.
+
+Embedding governance into design and build is not an academic exercise, it is a safeguard against risks that are far more costly and damaging when addressed later.
+
+**Exam Tip**: Embedding policies and ethical standards into design turns abstract principles into technical guardrails, making fairness, explainability, and accountability part of the system’s DNA. 
+
+**Exam Scenario**: An exam prompt could ask what to do when an AI model works well technically but has no transparency or fairness safeguards. The right answer is to apply ethics through documented standards, bias testing, explainability tools, and oversight before release.
 
 
+
+### E. Risk Management in AI Design and Build
 
 
 

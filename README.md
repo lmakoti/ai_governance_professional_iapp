@@ -57,7 +57,7 @@ Repository of my learning material for the AI Governance Professional certificat
   
   - [x] E. Role-based differences
   
-- [ ] **IV. MAIN INDUSTRY STANDARDS AND TOOLS. (AIGP BOK Section II.D)**<br>**Status**: `Completed` <br>
+- [x] **IV. MAIN INDUSTRY STANDARDS AND TOOLS. (AIGP BOK Section II.D)**<br>**Status**: `Completed` <br>
   **Target**: `12-Feb-2026`
   - [x] A. OECD Principles, Framework, Policies, and Recommended Practices for Trustworthy AI
   
@@ -69,6 +69,22 @@ Repository of my learning material for the AI Governance Professional certificat
   
 
 
+
+## Domain 3: Governing AI Development
+
+- [ ] I. GOVERN THE DESIGNING AND BUILDING OF THE AI MODEL (AIGP BOK Section III.A)
+
+  **Status**: `In Progress` <br>
+  **Target**: `XX-Feb-2026`
+
+  - [x] A. Define Business Context and Use Case
+  - [x] B. Perform / Review Impact Assessment
+  - [x] C. Identify Applicable Laws
+  - [x] D. Apply Policies, Best Practices, and Ethics in Design/Build
+  - [ ] E. Risk Management in AI Design and Build
+  - [ ] F. Document the Design/Build Process
+
+  
 
 
 
