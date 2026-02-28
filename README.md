@@ -81,7 +81,7 @@ Repository of my learning material for the AI Governance Professional certificat
   - [x] B. Perform / Review Impact Assessment
   - [x] C. Identify Applicable Laws
   - [x] D. Apply Policies, Best Practices, and Ethics in Design/Build
-  - [ ] E. Risk Management in AI Design and Build
+  - [x] E. Risk Management in AI Design and Build
   - [ ] F. Document the Design/Build Process
 
   
