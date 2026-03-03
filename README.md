@@ -111,6 +111,7 @@ Repository of my learning material for the AI Governance Professional certificat
 3. Develop a context specific **EU AI Act Compliance Checklist**
 4. Breakdown what the EU AI Act means for some industry use cases
 5. SOP for performing an **Algorithmic Impact Assessment**
+6. Review/Refine my knowledge of the AI Lifecycle (Specifically ML as it relates to neural networks)
 
 > **References**
 >
