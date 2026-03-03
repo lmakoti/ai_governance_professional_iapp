@@ -2,8 +2,8 @@
 
 ## I. Govern The Designing and Building of the AI Model (AIGP BOK Section III.A)
 
-**Status:** `In Progress`<br>
-**Target:** `XX-Feb-2026`
+**Status:** `Completed`<br>
+**Target:** `02-Mar-2026`
 
 The design and build phase of AI is where governance has its deepest influence. Decisions made here on data selection, model architecture, training methods, and risk controls shape the system’s future reliability, fairness, and compliance. **If governance is weak at this stage, flaws can become hardwired into the model and amplified at scale once deployed.**
 
@@ -150,11 +150,69 @@ Embedding governance into design and build is not an academic exercise, it is a 
 
 ### E. Risk Management in AI Design and Build
 
+Risk management is a core duty of AI governance at design/build. It turns scattered worries about probabilistic outputs, changing data, and large-scale deployment into a disciplined process that identifies plausible harms, ranks them, and reduces them before release.
 
+#### 1. Probability–Severity Matrix
 
+A practical starting point is the probability–severity matrix: each identified risk is placed on a grid according to how likely it is to occur and how bad the outcome would be if it did.
 
+Governance makes this exercise repeatable and defensible. Scales are defined upfront (what counts as “likely,” what counts as “severe”), scoring and rationales are recorded, and residual-risk acceptances are owned by the right level of authority.
 
+![](https://www.researchgate.net/publication/362606910/figure/fig1/AS:11431281083834215@1662818201103/Matrix-of-likelihood-of-occurrences-and-severity-of-loss.png)
 
+#### 2. Risk-Mitigation Hierarchy
+
+The risk-mitigation hierarchy provides a stepwise method for addressing AI risks. The principle is simple: tackle risks at their source whenever possible, and rely on human oversight only as a last resort.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/NIOSH%E2%80%99s_%E2%80%9CHierarchy_of_Controls_infographic%E2%80%9D_as_SVG.svg/1920px-NIOSH%E2%80%99s_%E2%80%9CHierarchy_of_Controls_infographic%E2%80%9D_as_SVG.svg.png)
+
+Governance enforces the principle that risks should be mitigated structurally, through elimination, substitution, or engineering, before being passed to human judgment. This approach prevents overreliance on human operators as a “safety net,” which can create fatigue and shift accountability away from design.
+
+#### 3. Stakeholder Mapping
+
+Governance requires a deliberate stakeholder-mapping exercise that identifies who is affected, how they are affected, and what kinds of risks or benefits they may experience. Done well, this widens the lens beyond the development team, reduces blind spots, and lends legitimacy to subsequent risk decisions.
+
+Stakeholder mapping turns fairness into an enforceable control: maintain a living register of affected groups with owners, contact paths, and stated concerns;
+
+**Exluded in notes:** 4. Use-Case Evaluation, 5. Benchmarking, 6. Pre-Deployment Pilots / Testing
+
+**Exam Tip**: Strong risk management in design is proactive, not reactive. By testing assumptions, stress-testing systems, and setting thresholds early, you prevent flaws from being amplified at scale. 
+
+**Exam Scenario**: The scenario might show a team labeling a risk as “high” but proceeding anyway without safeguards. The correct answer is to apply a probability–severity matrix, escalate critical risks, and block launch until mitigation is in place.
+
+### F. Document the Design/Build Process
+
+thorough documentation ensures traceability, accountability, and auditability—allowing regulators, auditors, and stakeholders to verify that compliance and risk management obligations were met.
+
+#### 1. Why Documentation Matters
+
+**Compliance evidence:** Regulators increasingly demand not only outcomes but also evidence of the process that produced them. For example, under GDPR, organizations must maintain Data Protection Impact Assessments (DPIAs) when high-risk personal data processing is involved.
+
+Documentation opens that box by showing how the system was built, what data it used, and why specific decisions were made.
+
+Documentation provides continuity, helping new teams understand why earlier choices were made and ensuring that institutional knowledge is preserved even as personnel change.
+
+#### 2. What to Document
+
+Comprehensive documentation ensures that every decision is transparent, reproducible, and defensible under scrutiny.
+
+Documentation must capture the full set of requirements: technical, legal, ethical, and organizational.
+
+documentation must include data sources, preprocessing steps, quality assessments, and bias testing results.
+
+Documentation should define where and how humans remain accountable. This includes escalation paths, intervention protocols, and assigned roles for monitoring outputs.
+
+#### 3. Tools for Documentation
+
+**Model Cards:** Model cards are concise summaries that describe a model’s purpose, performance, and limitations.
+
+Datasheets for Datasets: Datasheets provide a structured way to document datasets: the raw material for AI.
+
+**System Cards:** While model cards focus on individual models, system cards document the end-to-end AI system, showing how multiple components interact.
+
+**Impact Assessments:** Impact assessments, such as DPIAs under GDPR, Algorithmic Impact Assessments (AIAs), or healthcare-specific reviews under HIPAA, formalize the evaluation of risks. They require teams to document the system’s purpose, risks to individuals and society, and mitigation strategies.
+
+**Version Control Logs:** Version control is essential for traceability. Logs record every change to datasets, models, and risk controls, creating an auditable history of the system’s evolution.
 
 
 

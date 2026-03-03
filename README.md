@@ -45,7 +45,7 @@ Repository of my learning material for the AI Governance Professional certificat
   - [x] C. Consumer Protection and AI
   - [x] D. Product Liability and AI
 
-- [x] **III. MAIN ELEMENTS OF THE EU AI ACT (AIGP BOK Section II.C)**<br>**Status**: `In Progress` <br>
+- [x] **III. MAIN ELEMENTS OF THE EU AI ACT (AIGP BOK Section II.C)**<br>**Status**: `Completed` <br>
   **Target**: `10-Feb-2026`
   - [x] A. Risk classification
   
@@ -72,23 +72,52 @@ Repository of my learning material for the AI Governance Professional certificat
 
 ## Domain 3: Governing AI Development
 
-- [ ] I. GOVERN THE DESIGNING AND BUILDING OF THE AI MODEL (AIGP BOK Section III.A)
+- [x] I. GOVERN THE DESIGNING AND BUILDING OF THE AI MODEL (AIGP BOK Section III.A)
 
-  **Status**: `In Progress` <br>
-  **Target**: `XX-Feb-2026`
+  **Status**: `Completed` <br>
+  **Target**: `01-Mar-2026`
 
   - [x] A. Define Business Context and Use Case
   - [x] B. Perform / Review Impact Assessment
   - [x] C. Identify Applicable Laws
   - [x] D. Apply Policies, Best Practices, and Ethics in Design/Build
-  - [ ] E. Risk Management in AI Design and Build
-  - [ ] F. Document the Design/Build Process
+  - [x] E. Risk Management in AI Design and Build
+  - [x] F. Document the Design/Build Process
 
-  
+- [ ] II. GOVERN DATA COLLECTION AND USE FOR TRAINING/TESTING (AIGP BOK Section III.B)
+
+  **Status**: `In Progress` <br>
+  **Target**: `xx-Mar-2026`
+
+  - [ ] A. Data Governance Requirements
+  - [ ] B. Data Lineage and Provenance
+  - [ ] C. Plan and Perform Training & Testing
+  - [ ] D. Identify and Manage Issues & Risks During Training/Testing
+  - [ ] E. Document Training/Testing
 
 
 
 
+
+
+
+
+
+
+## Must-Do Actions post certification (Work Products)
+
+1. Write an **AI Risk Assessment** for a hypothetical company (or real one)
+2. Create an **AI Governance Policy Template**
+3. Develop a context specific **EU AI Act Compliance Checklist**
+4. Breakdown what the EU AI Act means for some industry use cases
+5. SOP for performing an **Algorithmic Impact Assessment**
+
+> **References**
+>
+> 1. **Dr Obi Ogbanufe:** https://www.youtube.com/watch?v=e84uUgBv538&t=616s (https://obiogbanufe.com/)
+> 2. **NIST AI Risk Management Framework**: https://www.nist.gov/artificial-intelligence
+> 3. **EU AI Act**: https://artificialintelligenceact.eu/ai-act-explorer/
+> 4. **OWASP Top 10 for LLMs Applications**: https://owasp.org/www-project-top-10-for-large-language-model-applications/
 
 
 
