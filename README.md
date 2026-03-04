@@ -89,8 +89,8 @@ Repository of my learning material for the AI Governance Professional certificat
   **Status**: `In Progress` <br>
   **Target**: `xx-Mar-2026`
 
-  - [ ] A. Data Governance Requirements
-  - [ ] B. Data Lineage and Provenance
+  - [x] A. Data Governance Requirements
+  - [x] B. Data Lineage and Provenance
   - [ ] C. Plan and Perform Training & Testing
   - [ ] D. Identify and Manage Issues & Risks During Training/Testing
   - [ ] E. Document Training/Testing

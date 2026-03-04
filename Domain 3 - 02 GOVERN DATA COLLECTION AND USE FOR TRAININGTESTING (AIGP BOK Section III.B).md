@@ -89,11 +89,47 @@ Governance ensures that data used for training and testing is not only technical
 
 ### B. Data Lineage and Provenance
 
+Data lineage (the technical flow of data through systems) and data provenance (the origin and ownership of the data). Together, they provide the audit trail needed to defend data practices to regulators, auditors, customers, and courts.
 
+#### 1. Data Lineage
 
+Data lineage provides the end-to-end record of how data flows through the AI lifecycle, from initial collection all the way to eventual deletion. It captures every step of the process: *ingestion, cleaning, transformation, training, testing, storage, and retirement*.
 
+Governance embeds lineage into AI workflows by requiring formal documentation of all data movements. This often includes maintaining lineage maps that visually represent how data flows from one stage to another. Finally, governance links lineage records directly to model documentation, such as model cards, so that decisions about a model can be traced back to the precise data flows that informed its training.
 
+#### 2. Data Provenance
 
+Data provenance documents the origin, ownership, and collection conditions of the dataset, ensuring that organizations know not just how data moved through their systems, but also where it came from, who owns it, and under what circumstances it was gathered.
+
+Governance requires organizations to systematically record data sources, noting whether information was collected first-hand, purchased from a third-party vendor, or drawn from publicly available repositories.
+
+#### 3. Combined Role of Lineage and Provenance
+
+While lineage and provenance serve different purposes, together they form the full accountability framework for AI data governance. Lineage shows the technical journey of data through systems, while provenance establishes its origins and ownership. Combined,
+
+**Considerations**
+
+- Auditability
+- Reproducibility
+- Risk management
+- Transparency
+
+Lineage and provenance are two sides of the same coin. Lineage traces the “how,” provenance establishes the “where,” and together they provide the evidence needed to ensure AI systems are auditable, reproducible, risk-aware, and transparent.
+
+#### 4. Documentation Tools
+
+Lineage and provenance provide the foundation for accountable AI data practices, but their value depends on being captured and communicated through the right documentation tools.
+
+**Tools**
+
+- Datasheets for datasets
+- Lineage graphs
+- Metadata repositories
+- Audit logs
+
+**Exam Tip**: Lineage tracks the “how” and provenance the “where.” Together they form the audit trail that makes AI data practices accountable, reproducible, and legally defensible. 
+
+**Exam Scenario**: The exam may give you a case where a model produces biased results, and you’re asked how to prove whether the issue came from data preprocessing or from the original dataset. The right move is to point to lineage (the steps taken in preparing and transforming the data) and provenance (the dataset’s original source), which together provide the accountability trail regulators and auditors expect.
 
 
 
