@@ -131,6 +131,114 @@ Lineage and provenance provide the foundation for accountable AI data practices,
 
 **Exam Scenario**: The exam may give you a case where a model produces biased results, and you’re asked how to prove whether the issue came from data preprocessing or from the original dataset. The right move is to point to lineage (the steps taken in preparing and transforming the data) and provenance (the dataset’s original source), which together provide the accountability trail regulators and auditors expect.
 
+### C. Plan and Perform Training & Testing
+
+Governance requires not only that testing occurs, but that it is planned, documented, and reviewed across multiple dimensions.
+
+#### 1. Unit Testing
+
+Unit testing is the first line of defense in ensuring that AI systems function reliably. It *focuses on validating individual components* of the AI pipeline, such as preprocessing modules, feature extraction routines, or algorithmic functions, before they are combined into larger systems.
+
+#### 2. Integration Testing
+
+Integration testing ensures that those components work together as a cohesive system. It *examines the interactions between modules*, such as data ingestion, preprocessing, model training, and output generation, to verify that they connect smoothly and function as intended.
+
+#### 3. Validation Testing
+
+Validation testing evaluates whether the trained model can generalize beyond the data it was trained on. By using *holdout sets, cross-validation, or external validation datasets,* organizations test how the model performs on unseen data, an essential step to prevent overfitting and confirm that results are robust in real-world conditions.
+
+#### 4. Performance Testing
+
+Performance testing evaluates whether an AI system actually *delivers the results it was designed to achieve*. While validation testing ensures generalizability, performance testing focuses on measuring the system against specific, pre-defined metrics that reflect the business, ethical, and regulatory requirements of the use case.
+
+#### 5. Security Testing
+
+Security testing evaluates whether an AI system can withstand deliberate or accidental attempts to compromise it. Unlike traditional software, AI models are vulnerable to unique attack vectors such as adversarial inputs, data poisoning, or model inversion, where attackers exploit the statistical nature of models to manipulate outputs or extract sensitive information.
+
+#### 6. Bias Testing
+
+Bias testing is one of the most critical aspects of AI governance because it evaluates whether a system produces fair and equitable outcomes across different demographic groups or other protected categories.
+
+#### 7. Interpretability / Explainability Testing
+
+Interpretability and explainability testing evaluates whether an AI system’s decision-making can be understood in terms meaningful to stakeholders.
+
+**Exam Tip**: Testing isn’t one-off. It spans unit, integration, validation, performance, security, bias, and explainability checks to prove models are accurate, fair, resilient, and trustworthy. 
+
+**Exam Scenario:** The exam may describe a team that only ran accuracy tests before launch but skipped bias or security checks. The correct answer is to recognize that governance requires ongoing, multi-layered testing, including fairness, robustness, and explainability, not just one-time accuracy tests.
+
+
+
+### D. Identify and Manage Issues & Risks During Training/Testing
+
+#### 1. Types of Issues and Risks
+
+Governance plays a key role in ensuring that these challenges are systematically identified, categorized, and resolved rather than ignored or patched in ad hoc ways. By recognizing the types of issues that can arise, organizations can anticipate risks and put processes in place to mitigate them.
+
+**Considerations**
+
+- Data Issues
+- Modeling Issues
+- Bias and Fairness Issues
+- Security Issues
+- Operational Issues
+- Ethical and Legal Risks
+
+#### 2. Risk Management Practices
+
+Identifying risks during training and testing is only the first step. Organizations must also have structured practices for managing them. Governance ensures that issues are not addressed inconsistently or reactively, but through a disciplined framework that captures, analyzes, prioritizes, remediates, and escalates risks as appropriate.
+
+**Considerations**
+
+- Monitoring and Logging
+- Root Cause Analysis
+- Risk Prioritisation
+- Remediation
+- Escalation
+
+Risk management during training and testing only becomes credible when supported by governance. Governance requires that every issue, whether data-related, modeling, fairness, or security, be documented with its root cause, remediation, and outcome, creating a traceable record for regulators, auditors, and future teams.
+
+Managing risks during training and testing is not just about good engineering, it is central to protecting people, ensuring compliance, and safeguarding organizational credibility. Governance transforms risk management from ad hoc fixes into a systematic process that prevents hidden failures, demonstrates due diligence, and builds a culture of continuous improvement.
+
+**Exam Tip**: Governance turns risk handling into a system, not an ad hoc fix. Issues are logged, analyzed, remediated, escalated, and documented so nothing slips through unnoticed. 
+
+**Exam Scenario**: The exam may present a situation where an AI system shows recurring data quality errors, but the team only patches them informally without logging or escalation. The correct answer is to recognize that proper governance requires a structured process, including documenting the issue, analyzing root causes, remediating, and escalating if needed, so risks don’t go untracked.
+
+### E. Document Training/Testing
+
+In AI governance, testing only becomes meaningful when it is accompanied by strong documentation. Records transform testing from an internal exercise into evidence that can be scrutinized, reproduced, and defended. Without them, even the most rigorous evaluation may be dismissed as unverifiable.
+
+**Considerations**
+
+- Validating Outcomes
+- Demonstrating Compliance
+- Managing Residual Risk
+- Documentation Infrastructure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

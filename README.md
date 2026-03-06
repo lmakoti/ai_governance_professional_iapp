@@ -91,9 +91,9 @@ Repository of my learning material for the AI Governance Professional certificat
 
   - [x] A. Data Governance Requirements
   - [x] B. Data Lineage and Provenance
-  - [ ] C. Plan and Perform Training & Testing
-  - [ ] D. Identify and Manage Issues & Risks During Training/Testing
-  - [ ] E. Document Training/Testing
+  - [x] C. Plan and Perform Training & Testing
+  - [x] D. Identify and Manage Issues & Risks During Training/Testing
+  - [x] E. Document Training/Testing
 
 
 
@@ -107,11 +107,12 @@ Repository of my learning material for the AI Governance Professional certificat
 ## Must-Do Actions post certification (Work Products)
 
 1. Write an **AI Risk Assessment** for a hypothetical company (or real one)
-2. Create an **AI Governance Policy Template**
-3. Develop a context specific **EU AI Act Compliance Checklist**
-4. Breakdown what the EU AI Act means for some industry use cases
-5. SOP for performing an **Algorithmic Impact Assessment**
-6. Review/Refine my knowledge of the AI Lifecycle (Specifically ML as it relates to neural networks)
+2. Create **System Cards, Model Cards, Risk Matrices (Probability-Severity Matrix), and Version Control Logs (maybe from GIT)**
+3. Create an **AI Governance Policy Template**
+4. Develop a context specific **EU AI Act Compliance Checklist**
+5. Breakdown what the EU AI Act means for some industry use cases
+6. SOP for performing an **Algorithmic Impact Assessment**
+7. Review/Refine my knowledge of the AI Lifecycle (Specifically ML as it relates to neural networks)
 
 > **References**
 >
