@@ -86,8 +86,8 @@ Repository of my learning material for the AI Governance Professional certificat
 
 - [ ] II. GOVERN DATA COLLECTION AND USE FOR TRAINING/TESTING (AIGP BOK Section III.B)
 
-  **Status**: `In Progress` <br>
-  **Target**: `xx-Mar-2026`
+  **Status**: `Completed` <br>
+  **Target**: `06-Mar-2026`
 
   - [x] A. Data Governance Requirements
   - [x] B. Data Lineage and Provenance
