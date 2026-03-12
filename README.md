@@ -84,7 +84,7 @@ Repository of my learning material for the AI Governance Professional certificat
   - [x] E. Risk Management in AI Design and Build
   - [x] F. Document the Design/Build Process
 
-- [ ] II. GOVERN DATA COLLECTION AND USE FOR TRAINING/TESTING (AIGP BOK Section III.B)
+- [x] II. GOVERN DATA COLLECTION AND USE FOR TRAINING/TESTING (AIGP BOK Section III.B)
 
   **Status**: `Completed` <br>
   **Target**: `06-Mar-2026`
@@ -95,11 +95,48 @@ Repository of my learning material for the AI Governance Professional certificat
   - [x] D. Identify and Manage Issues & Risks During Training/Testing
   - [x] E. Document Training/Testing
 
+- [x] III. GOVERN RELEASE, MONITORING, AND MAINTENANCE (AIGP BOK Section III.C)
+
+  **Status**: `Completed` <br>
+  **Target**: `11-Mar-2026`
+
+  - [x] A. Release Readiness
+  - [x] B. Continuous Monitoring; Scheduled Maintenance, Updates, Retraining
+  - [x] C. Periodic Assurance
+  - [x] D. Incident / Issue / Risk Management & Documentation
+  - [x] E. Cross-Functional Collaboration to Analyze Incident Causes
+  - [x] F. Public Disclosures for Transparency
 
 
 
 
+## Domain 4: Governing AI Deployment and Use
 
+- [ ] **I. EVALUATE FACTORS/RISKS BEFORE DECIDING TO DEPLOY (AIGP BOK Section IV.A)**
+
+  **Status**: `Incomplete` <br>
+  **Target**: `xx-Mar-2026`
+
+  - [ ] A. Use-Case Context
+  - [ ] B. Model Type Differences
+  - [ ] C. Deployment Options
+
+- [ ] **II. PERFORM KEY ASSESSMENT ACTIVITIES ON THE SELECTED MODEL (AIGP BOK Section IV.B)**
+
+  - [ ] A. Perform / Review Impact Assessment
+  - [ ] B. Identify Applicable Laws
+  - [ ] C. Evaluate Vendor / Open-Source Terms & Risks
+  - [ ] D. Account for Proprietary-Model Deployment Issues
+
+- [ ] **III. GOVERN DEPLOYMENT AND OPERATIONAL USE (AIGP BOK Section IV.C)**
+
+  - [ ] A. Apply Policies, Best Practices, and Ethics to Deployment
+  - [ ] B. Continuous Monitoring; Scheduled Maintenance, Updates, Retraining
+  - [ ] C. Periodic Assurance
+  - [ ] D. Document Incidents, Issues, Risks, and Post-Market Monitoring Plans
+  - [ ] E. Forecast & Reduce Secondary / Unintended Uses and Downstream Harms
+  - [ ] F. External Communications Plans
+  - [ ] G. Deactivate / Localize Controls as Needed
 
 
 
