@@ -112,32 +112,30 @@ Repository of my learning material for the AI Governance Professional certificat
 
 ## Domain 4: Governing AI Deployment and Use
 
-- [ ] **I. EVALUATE FACTORS/RISKS BEFORE DECIDING TO DEPLOY (AIGP BOK Section IV.A)**
+- [x] **I. EVALUATE FACTORS/RISKS BEFORE DECIDING TO DEPLOY (AIGP BOK Section IV.A)**
 
   **Status**: `Incomplete` <br>
   **Target**: `xx-Mar-2026`
 
-  - [ ] A. Use-Case Context
-  - [ ] B. Model Type Differences
-  - [ ] C. Deployment Options
+  - [x] A. Use-Case Context
+  - [x] B. Model Type Differences
+  - [x] C. Deployment Options
 
-- [ ] **II. PERFORM KEY ASSESSMENT ACTIVITIES ON THE SELECTED MODEL (AIGP BOK Section IV.B)**
+- [x] **II. PERFORM KEY ASSESSMENT ACTIVITIES ON THE SELECTED MODEL (AIGP BOK Section IV.B)**
 
-  - [ ] A. Perform / Review Impact Assessment
-  - [ ] B. Identify Applicable Laws
-  - [ ] C. Evaluate Vendor / Open-Source Terms & Risks
-  - [ ] D. Account for Proprietary-Model Deployment Issues
+  - [x] A. Perform / Review Impact Assessment
+  - [x] B. Identify Applicable Laws
+  - [x] C. Evaluate Vendor / Open-Source Terms & Risks
+  - [x] D. Account for Proprietary-Model Deployment Issues
 
-- [ ] **III. GOVERN DEPLOYMENT AND OPERATIONAL USE (AIGP BOK Section IV.C)**
-
-  - [ ] A. Apply Policies, Best Practices, and Ethics to Deployment
-  - [ ] B. Continuous Monitoring; Scheduled Maintenance, Updates, Retraining
-  - [ ] C. Periodic Assurance
-  - [ ] D. Document Incidents, Issues, Risks, and Post-Market Monitoring Plans
-  - [ ] E. Forecast & Reduce Secondary / Unintended Uses and Downstream Harms
-  - [ ] F. External Communications Plans
-  - [ ] G. Deactivate / Localize Controls as Needed
-
+- [x] **III. GOVERN DEPLOYMENT AND OPERATIONAL USE (AIGP BOK Section IV.C)**
+  - [x] A. Apply Policies, Best Practices, and Ethics to Deployment
+  - [x] B. Continuous Monitoring; Scheduled Maintenance, Updates, Retraining
+  - [x] C. Periodic Assurance
+  - [x] D. Document Incidents, Issues, Risks, and Post-Market Monitoring Plans
+  - [x] E. Forecast & Reduce Secondary / Unintended Uses and Downstream Harms
+  - [x] F. External Communications Plans
+  - [x] G. Deactivate / Localize Controls as Needed
 
 
 
