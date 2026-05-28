@@ -140,14 +140,17 @@ Repository of my learning material for the AI Governance Professional certificat
 
 
 ## Must-Do Actions post certification (Work Products)
+| Task                                                                                                                     | Status    |
+| ------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| Develop an AI Risk Assessment Question Bank                                                                              | Done        |
+| Write an AI Risk Assessment for a hypothetical company (or real one)                                                     | In Progress |
+| Create System Cards, Model Cards, Risk Matrices (Probability-Severity Matrix), and Version Control Logs (maybe from Git) | Not Started |
+| Create an AI Governance Policy Template                                                                                  | Not Started |
+| Develop a context-specific EU AI Act Compliance Checklist                                                                | Not Started |
+| Breakdown what the EU AI Act means for some industry use cases                                                           | Not Started |
+| SOP for performing an Algorithmic Impact Assessment                                                                      | Not Started |
+| Review/Refine my knowledge of the AI Lifecycle (specifically ML as it relates to neural networks)                        | Not Started |
 
-1. Write an **AI Risk Assessment** for a hypothetical company (or real one)
-2. Create **System Cards, Model Cards, Risk Matrices (Probability-Severity Matrix), and Version Control Logs (maybe from GIT)**
-3. Create an **AI Governance Policy Template**
-4. Develop a context specific **EU AI Act Compliance Checklist**
-5. Breakdown what the EU AI Act means for some industry use cases
-6. SOP for performing an **Algorithmic Impact Assessment**
-7. Review/Refine my knowledge of the AI Lifecycle (Specifically ML as it relates to neural networks)
 
 > **References**
 >
